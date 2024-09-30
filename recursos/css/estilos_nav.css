@@ -1,0 +1,33 @@
+:root{
+    --white: #ffffff;
+    --black: #000000;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #f7f7f7;
+    --hospital-green: #acd9b2;
+    --samll: 14px; /*tamaño de letra pequeño*/
+    --medium: 16px; /*tamaño de letra mediano*/
+    --large: 18px; /*tamaño de letra grande*/
+
+    --nav-padding: 0 100px; /* se utiliza para el padding de la navegación */
+}
+
+body{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f0f2f5;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+
+    padding: var(--nav-padding);
+
+    padding: 0 100px;
+    border-bottom: 1px solid var(--very-light-pink);
+    background-color: white;
+}
+
+
+

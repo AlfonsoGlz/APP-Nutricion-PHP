@@ -1,0 +1,27 @@
+
+    .container{
+        min-height: 100%;
+        margin-top: 5%; /*separa las cards del navbar*/
+    }
+
+    .btn{
+        width: 100%;
+        background: #003f82;
+        border: none;
+    }
+
+    @media (max-width: 575.98px) {
+        .card img {
+            width: 100%; /* Ajusta la imagen para que ocupe el 100% del ancho de la tarjeta */
+            height: auto; /* Mantiene la proporción de la imagen */
+        }
+    }
+
+    /* Estilos para dispositivos medianos (entre 576px y 768px) */
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        .card img {
+            width: 100%; /* Opcional, si quieres un tamaño diferente para dispositivos medianos */
+            height: auto;
+        }
+    }
+

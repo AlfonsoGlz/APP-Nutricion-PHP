@@ -1,0 +1,28 @@
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+#resultado {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #003f82;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #003f82;
+    border-color: #003f82;
+    margin-top: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #002a59;
+    border-color: #002a59;
+}
